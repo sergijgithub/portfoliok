@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/burger.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Hepta+Slab:wght@1..900&family=Kelly+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="nav_container">
+		<p class="title">Portfolio</p>
+		<nav class="navigation_menu">
+			<a href="#main" class="navigations">Головна</a>
+			<a href="#about" class="navigations">Про мене</a>
+			<a href="#projects" class="navigations">Проєкти</a>
+			<a href="#skills" class="navigations">Навички</a>
+			<a href="#contact" class="navigations">Контакти</a>
+		</nav>
+		<div class="burger">
+			<input type="checkbox" id="check"/>
+			<label for="check">
+				<span></span>
+			</label>
+			<ul>
+				<a href="#main">Головна</a>
+				<a href="#about">Про мене</a>
+				<a href="#projects">Проєкти</a>
+				<a href="#skills">Навички</a>
+				<a href="#contact">Контакти</a>
+			</ul>
+		</div>
+	</nav>
+	<header class="header" id="main">
+		<section class="section_text">
+			<h1 class="title1">Привіт, я Грижак Сергій</h1>
+			<h2 class="subtitle1">Я - фронтенд девелопер</h2>
+			<div class="where">
+				<img src="img/64665.png" alt="" class="mark" width="33px" height="33px">
+				<h3 class="where_text">Івано-Франківськ, Україна</h3>
+			</div>
+			<img src="img/me@1x.png" alt="" class="meee">
+			<a href="#about"><button class="button">
+				<p class="button_text">Дізнатись більше</p>
+			</button></a>
+		</section>
+		<picture>
+			<source srcset="img/me@1x.png" media="min-width:1281px">
+			<source srcset="img/me@2x.png" media="min-width:780px">
+			<source srcset="img/me@3x.png" media="max-width:480px">
+			<img src="img/me@1x.png" alt="" class="mee">
+		</picture>
+	</header>
+	<main class="about_me" id="about">
+		<div class="section_title">
+			<h1 class="about_title">Про мене</h1>
+		</div>
+		<div class="grid_me">
+			<picture>
+				<source srcset="img/mountain@1x.png" media="min-width:1281px">
+				<source srcset="img/mountain@2x.png" media="min-width:780px">
+				<source srcset="img/mountain@3x.png" media="max-width:480px">
+				<img src="img/mountain@1x.png" alt="" class="mountain">
+			</picture>
+			<div class="text_me_wrap">
+				<h2 class="subtitle_me">Описання</h2>
+				<p class="text_me">Мені 12 років, я почав займатись розробкою<br>
+фронтенд в 2021 році і планую розвиватись<br>
+з таким самим принципом.  Мені дуже<br>
+подобається програмування та вмію<br>
+створювати сайти про  які Вам ще не<br>
+доводилось чути.<br>
+<br>
+Моя мета як програміст, це залишати всіх<br>
+кліентів задоволеними своїми замовленнями.<br>
+Вже пройшло 3 роки після того, як я почав<br>
+свій шлях до майстера-програміста і за все<br>
+своє навчання, я зміг зробити прототипи<br>
+сайтів, які є “Просто бомба”. Я вмію спілкуватись<br>
+англійською мовою по рівні C1/C2</p>
+			</div>
+			<picture>
+				<source srcset="img/mountain1@1x.png" media="min-width:1281px">
+				<source srcset="img/mountain1@2x.png" media="min-width:780px">
+				<source srcset="img/mountain1@3x.png" media="max-width:480px">
+				<img src="img/mountain1@1x.png" alt="" class="mountain1">
+			</picture>
+		</div>
+	</main>
+	<hero class="projects" id="projects">
+		<div class="section_title">
+			<h1 class="about_title">Проєкти</h1>
+		</div>
+		<div class="project_grid">
+			<section class="section_project">
+				<div class="rectangle1">
+					<h3 class="textbold1">Веб-студія</h3>
+					<h3 class="textbold2">Про те, як влаштована веб-студія</h3>
+					<h3 class="textbold3">HTML, CSS, Адаптивна верстка</h3>
+					<a href="https://sergijgithub.github.io/web-studio/"><img src="img/share.png" alt="" class="share" width="35px" height="33px"></a>
+				</div>
+				<div class="rectangle2">
+					<img src="img/webstudio.png" alt="" class="projecto">
+				</div>
+			</section>
+			<section class="section_project">
+				<div class="rectangle3">
+					<h3 class="textbold1">Портфоліо</h3>
+					<h3 class="textbold2">Моє перше портфоліо</h3>
+					<h3 class="textbold3">HTML, CSS</h3>
+					<a href="https://sergijgithub.github.io/old-portfolio/"><img src="img/share.png" alt="" class="share" width="35px" height="33px"></a>
+				</div>
+				<div class="rectangle4">
+					<img src="img/portfoli.png" alt="" class="projecto">
+				</div>
+			</section>
+			<section class="section_project">
+				<div class="rectangle3">
+					<h3 class="textbold1">Веб-магазин</h3>
+					<h3 class="textbold2">Мій макет веб-магазину</h3>
+					<h3 class="textbold3">HTML, CSS</h3>
+					<a href="https://sergijgithub.github.io/denim/"><img src="img/share.png" alt="" class="share" width="35px" height="33px"></a>
+				</div>
+				<div class="rectangle4">
+					<img src="img/denim.png" alt="" class="projecto">
+				</div>
+			</section>
+			<section class="section_project">
+				<div class="rectangle1">
+					<h3 class="textbold1">Україна - понад усе</h3>
+					<h3 class="textbold2">Про те, яка є Україна</h3>
+					<h3 class="textbold3">HTML, CSS</h3>
+					<a href="https://sergijgithub.github.io/ukraine/"><img src="img/share.png" alt="" class="share" width="35px" height="33px"></a>
+				</div>
+				<div class="rectangle2">
+					<img src="img/ukraine.png" alt="" class="projecto">
+				</div>
+			</section>
+		</div>
+	</hero>
+	<article class="skills" id="skills">
+		<div class="section_title">
+			<h1 class="about_title">Навички</h1>
+		</div>
+		<h1 class="skill">Soft skills</h1>
+		<div class="skill_wraper2">
+			<div class="skill_wraper">
+				<img src="img/14.png" alt="" class="softskill">
+				<p class="skilltext">Вирішення проблем</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/16.png" alt="" class="softskill">
+				<p class="skilltext">Розуміння</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/15.png" alt="" class="softskill">
+				<p class="skilltext">Клієнто- орієнтованість</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/13.png" alt="" class="softskill">
+				<p class="skilltext">Логічне мислення</p>
+			</div>
+		</div>
+		<h1 class="skill">Hard skills</h1>
+		<div class="skill_wraper2">
+			<div class="skill_wraper">
+				<img src="img/html.png" alt="" class="hardskill">
+				<p class="skilltext">HTML 5</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/css.png" alt="" class="hardskill">
+				<p class="skilltext">CSS 3</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/figma.png" alt="" class="hardskill">
+				<p class="skilltext">Figma</p>
+			</div>
+			<div class="skill_wraper">
+				<img src="img/english.png" alt="" class="hardskill">
+				<p class="skilltext">Англійська мова C1 / C2</p>
+			</div>
+		</div>
+	</article>
+	<div class="contacts" id="contact">
+		<div class="section_title">
+			<h1 class="about_title">Контакти</h1>
+		</div>
+		<form class="form">
+			<label for="first">
+				Email
+				<input type="text" name="first" placeholder="Введіть свій Email">
+			</label>
+			<label for="last">
+				Номер телефону
+				<input type="text" name="last" placeholder="Введіть свій номер телефону">
+			</label>
+			<label for="msg">
+				Ваше повідомлення
+				<input type="text" name="msg" placeholder="Введіть своє повідомлення">
+			</label>
+			<button class="button_send" type="submit">
+				<p class="button_sendtext">Надіслати</p>
+			</button>
+		</form>
+	</div>
+	<footer class="footer">
+		<div class="social">
+			<img src="img/twitter.png" alt="" class="twitter">
+			<img src="img/facebook.png" alt="" class="facebook">
+			<img src="img/instagram.png" alt="" class="instagram">
+		</div>
+		<p class="email_me">sergij1407@gmail.com</p>
+	</footer>
+</body>
+</html>
